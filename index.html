@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+    <script src="./scripts/jquery.js"></script>
+
+</head>
+
+<body>
+
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">T0D0 List</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="#!">New</a></li>
+                <li><a href="#!">New topic</a></li>
+                <li><a href="#!">New topic at work</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <ul class="collection with-header">
+            <li class="collection-header">
+                <h4>Topics</h4>
+            </li>
+            <li class="collection-item avatar">
+                <i class="material-icons circle">work</i>
+                <div>Alvin<p>Description</p>
+                    <a href="#!" class="secondary-content"><i class="material-icons" id="cedit">edit</i> <i class="material-icons cdel"
+                            id="cdelete">delete</i></a></div>
+            </li>
+
+        </ul>
+
+        <p data-target="modal1" class="btn-floating btn-large waves-effect waves-light red right modal-trigger" id="btnadd"><i
+                class="material-icons">add</i></p>
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="input-field col l6 m6 s6">
+                        <i class="material-icons prefix">view_headline</i>
+                        <input id="icon_title" type="text" class="validate">
+                        <label for="icon_title">Title</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">subject</i>
+                        <input id="icon_descrip" type="text" class="validate">
+                        <label for="icon_descrip">Description</label>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer" id="modalclick">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat" id="addclick">Add</a>
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat"><i class="material-icons prefix">cancel</i></a>
+            </div>
+        </div>
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>
